@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "39e9ba1d-aa12-4035-837e-b0f33102c592",
+		"name": "SkyWaking-Thread-Trace",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30509708"
+	},
+	"item": [
+		{
+			"name": "Pool-Callable",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8090/tracing/pool/runnable",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"tracing",
+						"pool",
+						"runnable"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pool-Runnale",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8090/tracing/pool/runnable",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"tracing",
+						"pool",
+						"runnable"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "No-Wrapper-Runnale",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8090/tracing/no-wrapper/runnable",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"tracing",
+						"no-wrapper",
+						"runnable"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "No-Wrapper-Callable",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8090/tracing/no-wrapper/callable",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"tracing",
+						"no-wrapper",
+						"callable"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Wrapper-Runnale",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8090/tracing/wrapper/runnable",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"tracing",
+						"wrapper",
+						"runnable"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Wrapper-Callable",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8090/tracing/no-wrapper/callable",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"tracing",
+						"no-wrapper",
+						"callable"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
